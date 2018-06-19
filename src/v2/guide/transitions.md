@@ -1191,6 +1191,9 @@ new Vue({
 .list-complete-leave-active {
   position: absolute;
 }
+.list-complete-move {
+  transition: transform 1s
+}
 ```
 
 {% raw %}
@@ -1240,6 +1243,9 @@ new Vue({
 }
 .list-complete-leave-active {
   position: absolute;
+}
+.list-complete-move {
+  transition: transform 1s
 }
 </style>
 {% endraw %}
